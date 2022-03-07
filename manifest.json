@@ -1,11 +1,8 @@
 {
     "name": "Notepad",
-    "description": "Handy notepad to take notes in a tab",
+    "description": "Handy notepad that saves notes across tabs",
     "version": "1.0",
     "manifest_version": 3,
-    "background": {
-        "service_worker": "background.js"
-    },
     "action": {
         "default_popup": "popup.html"
     }
